@@ -1,0 +1,44 @@
+{
+  "name": "socket.io-nats-emitter",
+  "version": "0.1.0",
+  "description": "Allows you to communicate with socket.io servers easily from non-socket.io processes through NATS.",
+  "engines": {
+    "node": ">=0.12",
+    "npm": ">=2.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/efmr/socket.io-nats-emitter.git"
+  },
+  "keywords": [
+    "socket.io",
+    "NATS"
+  ],
+  "author": "Edgar Ribeiro",
+  "email": "edgar.marques.ribeiro@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efmr/socket.io-nats-emitter/issues"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "check": "npm run lint && npm run test",
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/efmr/socket.io-nats-emitter#readme",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "socket.io-nats": "efmr/socket.io-nats"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "has-binary": "^0.1.7",
+    "nats": "^0.5.4",
+    "socket.io-parser": "2.2.6"
+  }
+}
