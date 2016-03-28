@@ -127,8 +127,10 @@ describe('emitter', function describeEmitter() {
         });
 
         b.on('connect', function bConn() {
-          emitter.to('exclusive room').broadcast.emit(
-            'broadcast event', 'broadcast payload');
+          setTimeout(function delay() {
+            emitter.to('exclusive room').broadcast.emit(
+              'broadcast event', 'broadcast payload');
+          }, 50);
         });
       });
     });
@@ -171,8 +173,10 @@ describe('emitter', function describeEmitter() {
         });
 
         b.on('connect', function bConn() {
-          emitter.to(secondId).broadcast.emit(
+          setTimeout(function delay() {
+            emitter.to(secondId).broadcast.emit(
             'broadcast event', 'broadcast payload');
+          }, 50);
         });
       });
     });

@@ -1,6 +1,6 @@
 {
   "name": "socket.io-nats-emitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Allows you to communicate with socket.io servers easily from non-socket.io processes through NATS.",
   "engines": {
     "node": ">=0.12",
@@ -31,8 +31,8 @@
     "eslint-config-airbnb": "^6.1.0",
     "expect.js": "^0.3.1",
     "mocha": "^2.4.5",
-    "socket.io": "^1.3.7",
-    "socket.io-client": "^1.3.7",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
     "socket.io-nats": "efmr/socket.io-nats"
   },
   "dependencies": {
