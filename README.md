@@ -3,7 +3,7 @@
 
 
 `socket.io-nats-emitter` allows you to communicate with socket.io servers through
- NATS easily from non-socket.io processes, based on the [socket.io-emitter](https://github.com/socketio/socket.io-emitter).
+ [NATS](http://nats.io/) easily from non-socket.io processes, based on the [socket.io-emitter](https://github.com/socketio/socket.io-emitter).
 
  The socket.io servers instances should use this adapter [socket.io-nats](https://github.com/efmr/socket.io-nats-emitter) or one that
  implements the protocol.
