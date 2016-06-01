@@ -8,6 +8,12 @@
  The socket.io servers instances should use this adapter [socket.io-nats](https://github.com/efmr/socket.io-nats) or one that
  implements the protocol.
 
+## Install
+
+```
+npm install socket.io-nats-emitter
+```
+
 ## How to use
 
 ```js
